@@ -1,0 +1,190 @@
+
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: #bbbbbb;
+    width: 100%;
+    padding: 0 10rem;
+    box-sizing: border-box;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    margin: 0 3rem;
+
+}
+
+.header img {
+    height: 175px;
+    width: 125;
+}
+
+.header nav ul {
+    margin-left: auto;
+}
+
+.header nav li  {
+    display: inline-block;
+    margin: 0 0 0 15px
+}
+
+.header nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.header nav a:active {
+    color: #088c19;
+    text-decoration: underline;
+}
+
+
+
+.produtos {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    
+
+    /*se eu não tivesse feito gracinha de coloca borda só em cime e embaixo eu poderia declarar assim:*/
+    /*border: 2px solid black; tamanho tipo e cor */
+}
+
+.produtos li:hover {
+    border-color: #C78C19; 
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url("./imagens/bg.jpg");
+    width: 100%;
+    bottom: 0;
+    margin-top: auto;
+    
+}
+
+footer img {
+    height: 150px;
+    width: 120px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px 0;
+}
+
+main{
+    display: flex;
+
+}
+
+form{
+
+    margin: 3rem 3rem;
+    width: 100%;
+}
+
+form label, p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao input, textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 20px 20px 0;
+}
+
+.enviar {
+    margin:4rem;
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: red;
+    transform: scale(1.2);
+}
+
+table{
+   margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

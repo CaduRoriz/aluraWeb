@@ -1,0 +1,41 @@
+#banner {
+    width: 100%;
+}
+
+.teste{
+    background-color:#cccccc;
+    padding: 30px;
+}
+
+.titulo-principales {
+    padding: 20px;
+}
+
+.titulos-centralizados{
+    text-align: center;;
+}
+
+.teste p {
+    text-align: center;
+}
+
+.teste em strong {
+    color: red;
+}
+
+.beneficios{
+    background-color: white;
+    padding: 20px;
+}
+
+.beneficios ul{ 
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#imgbeneficios {
+    width: 50%;
+}
